@@ -21,7 +21,7 @@ function App() {
         }
         
     }, []);
-    var isLoading = (lat == 0 && lon == 0);
+    var isLoading = (lat === 0 && lon === 0);
 
     if(isLoading){
         console.log('loading');
